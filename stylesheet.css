@@ -1,0 +1,33 @@
+@import url("/reset.css");
+
+:root {
+    /*** Colors ***/
+    --DarkBg: #1F2937;
+    --White: #F9FAF8;
+    --HeroMainTextColor: var(--White);
+    --HeroSecColor:#E5E7EB;
+    --HeaderLogoColor: var(--HeroMainTextColor);
+    --InfoHeaderColor: #1F2937;
+    --QuoteSectionBG: var(--HeroSecColor);
+    --QuoteText: #1F2937;
+
+    /*** Text Size ***/
+    --HeroMain: 48px;
+    --HeroSec: 18px;
+    --HeaderLogo: 24px;
+    --InfoHeader: 36px;
+    --QuoteText: 36px;
+
+    /*** Weight ***/
+    --HeroMainWeight:900;
+    --InfoHeaderWeight:900;
+    --QuoteTextWeight: light;
+
+    /*** Fonts ***/
+    --MainFont: Roboto;
+
+    /*** Button Color ***/
+    --ButtonColor: #3882F6;
+
+  };
+
