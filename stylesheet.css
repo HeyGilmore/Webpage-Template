@@ -34,7 +34,7 @@
   html{font-family: var(--MainFont);}
 
 
-/*----- Navigation -----*/
+/*---------- [ Navigation ] -----------*/
 #navbar{
     background-color: var(--DarkBg);
     width: 100%;
@@ -68,28 +68,44 @@ nav div .navbar-links a{
     margin: 0 .2em;
 }
 
-
-
-
-/*----- Navigation -----*/
+/*---------- [ Hero Section ] -----------*/
 header{
-    background-color: var(--DarkBg);
+    background: var(--DarkBg);
 }
+
 header div{
     height: 100%;
+    width: 80%;
     display: flex;
-    border: 2px solid red;
-    padding: 1em;
+    align-items: center;
+    margin: 0 auto;
+    padding: 5em 2em;
 }
-header div #leftSection{
-    border: 2px solid lime;
+header div .leftSide, header div .rightSide{
+    flex: 1;
 }
-header div #leftSection h1{
+header div .leftSide{
+    border: 1px solid lime;
+    padding: 5px 0;
+}
+
+header div .leftSide h1{
     color: var(--HeroMainTextColor);
     font-weight: var(--HeroMainWeight);
+    font-size: var(--HeroMain);
 }
-
-header div #leftSection p{
+header div .leftSide p{
     color: var(--HeroMainTextColor);
+    letter-spacing: .3px;
+    margin-bottom: 1em;
 }
-
+header div .leftSide button{
+    background: var(--ButtonColor);
+    border: none;
+    color: var(--White);
+    padding: 6px 30px;
+    border-radius: 7px;
+    font-weight: 500;
+    letter-spacing: .3px;
+    
+}
