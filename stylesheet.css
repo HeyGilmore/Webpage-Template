@@ -1,5 +1,5 @@
-@import url("/reset.css");
-
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root {
     /*** Colors ***/
     --DarkBg: #1F2937;
@@ -21,13 +21,75 @@
     /*** Weight ***/
     --HeroMainWeight:900;
     --InfoHeaderWeight:900;
-    --QuoteTextWeight: light;
+    --QuoteTextWeight: 300;
 
     /*** Fonts ***/
-    --MainFont: Roboto;
+    --MainFont: "Roboto", sans-serif;
 
     /*** Button Color ***/
     --ButtonColor: #3882F6;
 
-  };
+  }
+
+  html{font-family: var(--MainFont);}
+
+
+/*----- Navigation -----*/
+#navbar{
+    background-color: var(--DarkBg);
+    width: 100%;
+    height: 53px;
+    padding: 0 2em;
+}
+#navbar div{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+}
+/*--- Right Side ---*/
+
+/* Header Logo*/
+nav div .headerLogoSection h3{
+    color: var(--HeaderLogoColor);
+    text-wrap: nowrap;
+    letter-spacing: .4px;
+}
+/*--- Left Side ---*/
+nav div .navbar-links{
+    margin-left: auto;
+    text-wrap: nowrap;
+}
+/* Anchors */
+nav div .navbar-links a{
+    text-decoration: none; 
+    color: #c1cdcd;
+    margin: 0 .2em;
+}
+
+
+
+
+/*----- Navigation -----*/
+header{
+    background-color: var(--DarkBg);
+}
+header div{
+    height: 100%;
+    display: flex;
+    border: 2px solid red;
+    padding: 1em;
+}
+header div #leftSection{
+    border: 2px solid lime;
+}
+header div #leftSection h1{
+    color: var(--HeroMainTextColor);
+    font-weight: var(--HeroMainWeight);
+}
+
+header div #leftSection p{
+    color: var(--HeroMainTextColor);
+}
 
