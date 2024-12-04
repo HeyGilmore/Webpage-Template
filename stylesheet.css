@@ -85,7 +85,6 @@ header div .leftSide, header div .rightSide{
     flex: 1;
 }
 header div .leftSide{
-    border: 1px solid lime;
     padding: 5px 0;
 }
 
@@ -112,10 +111,6 @@ header div .leftSide button{
 }
 
 /*---------- [ Some Random Information ] -----------*/
-main div .Section2Title{
-   border: 1px solid green;
-}
-
 main div .Section2Title h2{
     font-size: var(--InfoHeader);
     color: var(--InfoHeaderColor);
@@ -212,4 +207,14 @@ main div .SectionInfo aside p {
     font-weight: 500;
     letter-spacing: .3px;
 }
+
+/*---------- [Footer ] -----------*/
+footer{
+    background: var(--DarkBg);
+    padding: 1em;
+    color:var(--HeroSecColor);
+    text-align: center;
+
+}
+
 
