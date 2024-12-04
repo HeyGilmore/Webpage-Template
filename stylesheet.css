@@ -170,3 +170,46 @@ main div .SectionInfo aside p {
 }
 
 
+/*---------- [ Call to action ] -----------*/
+#CallToActionSection{
+    width: 100%;
+
+}
+
+#CallToActionSection div{
+    background-color: var(--ButtonColor);
+    border-radius: 7px;
+    display: flex;
+    width: 70%;
+    margin: 4em auto;
+    padding: 2em 5em;
+}
+
+#CallToActionSection div .CallAction{
+    flex:4
+}
+#CallToActionSection div .CallAction strong, #CallToActionSection div .CallAction small{
+    color: var(--HeroMainTextColor);
+}
+
+#CallToActionSection div .CallAction small{
+    font-weight: 300;
+}
+
+#CallToActionSection div .CallActionButton{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#CallToActionSection div .CallActionButton button{
+    color: var(--HeroMainTextColor); 
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 6px 30px;
+    font-weight: 500;
+    letter-spacing: .3px;
+}
+
