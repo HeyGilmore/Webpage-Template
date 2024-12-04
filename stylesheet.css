@@ -96,8 +96,9 @@ header div .leftSide h1{
 }
 header div .leftSide p{
     color: var(--HeroMainTextColor);
-    letter-spacing: .3px;
+    letter-spacing: 1px;
     margin-bottom: 1em;
+    font-size: var(--HeroSec);
 }
 header div .leftSide button{
     background: var(--ButtonColor);
@@ -109,3 +110,43 @@ header div .leftSide button{
     letter-spacing: .3px;
     
 }
+
+/*---------- [ Some Random Information ] -----------*/
+main div .Section2Title{
+   border: 1px solid green;
+}
+
+main div .Section2Title h2{
+    font-size: var(--InfoHeader);
+    color: var(--InfoHeaderColor);
+    font-weight: var(--InfoHeaderWeight);
+    text-align: center;
+    margin: 1em 0;
+}
+
+main div .SectionInfo {
+    display: flex;
+    margin: 0 auto;;
+    width: 65%;
+}
+main div .SectionInfo aside {
+    width: fit-content;
+    margin: 0px 10px;
+}
+
+main div .SectionInfo aside img {
+   width: 100%;
+   border-radius: 7px;
+   border: 3px solid var(--ButtonColor);
+}
+
+main div .SectionInfo aside p {
+    letter-spacing: .3px;
+    text-align: center;
+    padding-top: 12px;
+    font-size: var(--HeroSec);
+}
+
+
+
+
