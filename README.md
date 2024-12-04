@@ -4,7 +4,7 @@
 
 <h4 align="center">A simple webpage template built with HTML and CSS to practice foundational web development skills in structuring content and styling. (Not responsive)</h4>
 
-![screenshot](/img/Wireframe.png
+![screenshot](/img/Wireframe.png)
 
 ## Objective
 
